@@ -1,5 +1,5 @@
 moralsTaskDataFile,dat.DeathMethods3SubjectData.txt
-valueOverlapDataFile,Overlap for single probes in moralsV5 terrorist.txt
+valueOverlapDataFile,respBias2TrialOverlaps.txt
 prepDataOutFile,preprocessedData.txt
 analysisReadyOutFile,analysisReadyData.txt
 statsOutputFilePrefix,statsOutputFile.txt
@@ -18,11 +18,12 @@ minOverlapNsn,10
 keybRTtransform,log
 RTresid,TRUE
 RTresidSN,TRUE
-dt.set,DeathMethod
+dt.set,RespBias2
 snSubDir,subAnalysis
 gpSubDir,groupAnalysis
 itemSubDir,itemAnalysis
 numPlotRows,2
+minGroup,1
 minGroupAnum,1
 maxGroupAnum,1
 minGroupBnum,2
